@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivImageOutput"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="56dp" />
+
+
+    <EditText
+        android:id="@+id/etSearchPicture"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите что-нибудь"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+        android:text="Найти"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+</LinearLayout>
